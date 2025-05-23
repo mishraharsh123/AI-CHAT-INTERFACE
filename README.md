@@ -16,6 +16,7 @@ An AI-powered chat interface built with **Next.js**, **TypeScript**, and **Tailw
 pnpm install
 # or
 npm install
+
 Start Development Server
 bash
 Copy
@@ -23,6 +24,8 @@ Edit
 pnpm dev
 # or
 npm run dev
+
+
 Build for Production
 bash
 Copy
@@ -30,6 +33,7 @@ Edit
 pnpm build
 # or
 npm run build
+
 Start Production Server
 bash
 Copy
@@ -37,7 +41,9 @@ Edit
 pnpm start
 # or
 npm run start
-🧩 Plugin Architecture & Parsing Logic
+
+
+🧩 Plugin Architecture & Parsing Logic:
 This project uses a plugin-based architecture for handling different chat features dynamically.
 
 How It Works:
@@ -68,9 +74,9 @@ News Plugin	Latest news headlines	NewsAPI
 Joke Plugin	Programming jokes	JokeAPI
 Calculator Plugin	Basic math operations	Custom JS logic
 
-(Update this table as your project grows.)
 
-📦 Tech Stack
+📦 Tech Stack:
+
 Next.js (React + TypeScript)
 
 Tailwind CSS for styling
@@ -81,9 +87,12 @@ Zod & React Hook Form for validation
 
 Recharts for data visualization
 
+
 🤝 Contributing
 Contributions are welcome!
 Please fork the repo, make your changes, and open a pull request.
+
+
 
 📄 License
 This project is licensed under the MIT License.
